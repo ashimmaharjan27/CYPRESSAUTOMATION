@@ -20,6 +20,8 @@ import './commands'
 // require('./commands')
 
 
-require('@cypress/xpath'); 
+require('@cypress/xpath');
+
+//require('cypress-iframe');
 
 import 'cypress-mochawesome-reporter/register'; 

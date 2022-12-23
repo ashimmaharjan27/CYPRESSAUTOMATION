@@ -1,4 +1,4 @@
-import 'cypress-iframe';
+// import 'cypress-iframe';
 
 describe('IframeDemo', () => {
     it('Approch 1', () => {
