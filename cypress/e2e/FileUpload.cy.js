@@ -32,7 +32,7 @@ describe('File upload', () => {
 
     })
 
-    it.only('multiple file', () => {
+    it('multiple file', () => {
         cy.visit('https://davidwalsh.name/demo/multiple-file-upload.php');
         cy.wait(1000);
         cy.get('#filesToUpload').attachFile(['test1.txt', 'test2.txt', 'test3.txt']);
